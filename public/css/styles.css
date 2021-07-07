@@ -1,0 +1,41 @@
+/* import the necessary Bootstrap files */
+.square {
+  border-radius: 0px;
+}
+
+.user {
+  background: aqua; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4ca2cd,
+    #67b26f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4ca2cd,
+    #67b26f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron {
+  background-image: url("https://t3.ftcdn.net/jpg/02/96/19/96/360_F_296199640_u386oRVazzYoeSp3XNhDdQpMpol2nsNX.jpg");
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-position: center;
+  color: aqua;
+}
+
+.form-group {
+  width: 60%;
+  border-color: turquoise;
+  justify-content: center;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(48, 187, 187);
+}
+
+.pointer {
+  cursor: pointer;
+}
